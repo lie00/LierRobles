@@ -1,0 +1,451 @@
+html{
+    font-size: 62.5%;
+    }
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior:smooth;
+    }
+
+    .developmentspace{
+    min-height: 1000px;
+    }
+
+    :root{
+    --white: #b66fac;
+    --bg: #5e181e;
+    }
+
+    li{
+    list-style-type: none;
+    }
+
+    a{
+    color: var(--white);
+    text-decoration: none;
+    }
+
+    h2{
+    font-size: 2.4rem;
+    }
+
+    p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #111;
+    }
+
+    .banner{
+        float: left;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: url(me.jpg) ;
+    background-size: cover;
+    background-position: center;
+    }
+
+    .banner .content.left-content{
+        text-align: left;
+        max-width: 70%; 
+    }
+
+    .banner .content.left-content h2{
+        font-size: 4rem; 
+    }
+
+    .banner .content.left-content p{
+        font-size: 2rem; 
+        margin-top: 20px; 
+    }
+
+
+    .banner .content{
+    max-width: 900px;
+    text-align: center;
+    }
+
+    .banner .content h2{
+    font-size: 8rem;
+    color: var(--white);
+    }
+
+    .banner .content p{
+    font-size: 2rem;
+    color: var(--white);
+    }
+
+
+
+    header{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    }
+
+    header .logo{
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 700;
+    }
+
+    header .logo span{
+    color: var(--bg);
+    }
+
+    header .nav-links{
+    position: relative;
+    display: flex;
+    }
+
+    header .nav-links li{
+    font-size: 2rem;
+    margin-left: 30px;
+    }
+
+    header.sticky{
+    background: var(--white);
+    padding: 10px 100px;
+    box-shadow: 10px 0 50px rgba(0, 0, 0, 0.5);
+    }
+
+    header.sticky .logo{
+    color: #111;
+    }
+    header.sticky .nav-links li a{
+    color: #111;
+    }
+
+    header .nav-links li a:hover{
+    color: var(--bg);
+    }
+
+
+    .nav-links{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-links li{
+        display: inline-block;
+        margin-right: px; 
+    }
+
+    .nav-links li a{
+        display: inline-block;
+        padding: 7px 10px; 
+        background-color: #b262bd; 
+        color: #140000; 
+        text-decoration: none;
+        border: none;
+        border-radius: 4px; 
+        transition: background-color 0.3s ease;
+    }
+
+    .nav-links li a:hover{
+        background-color: #dce1e4;
+    }
+
+
+
+    section{
+    padding: 100px;
+    }
+    .row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .row .col50{
+    position: relative;
+    width: 48%;
+    }
+
+    .titletext{
+    color: #111;
+    font-size: 5rem;
+    font-weight: 300;
+    }
+
+    .titletext span{
+    color: var(--bg);
+    font-weight: 700;
+    font-size: 8rem;
+    }
+
+    
+.titletext1{
+font-size: 5rem;
+text-align: center; /* Align the title text to the center */
+background-color: #333; /* Add background color */
+color: #fff; /* Set text color to white */
+padding: 0.2em 0.5em; /* Add padding for spacing */
+margin-bottom: 20px; /* Add margin at the bottom to separate from the gallery */
+display: inline; /* Make the background fit only within the text */
+}
+
+
+.titletext2{
+font-size: 5rem;
+text-align: center; /* Align the title text to the center */
+background-color: #333; /* Add background color */
+color: #fff; /* Set text color to white */
+padding: 0.2em 0.5em; /* Add padding for spacing */
+margin-bottom: 20px; /* Add margin at the bottom to separate from the gallery */
+}
+
+  
+    .row .col50 .imgbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    }
+
+    .row .col50 .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    }
+
+
+
+    .col50{
+        width: 50%;
+        float: left; 
+        box-sizing: border-box;
+        padding: 0 15px; 
+    }
+
+
+    .imgbox{
+        background: url(carlopic.jpg);  
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .imgbox img{
+        width: 100%; 
+        height: auto;
+        display: block; 
+    }
+
+
+
+
+    .Hobbies{
+        background-color: rgb(237, 238, 242);
+        width: 2000px;
+    background-size: cover;
+    background-position: center;
+    }
+    .Hobbies .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .Hobbies h3,p{
+        text-align: center;
+    }
+    
+    .Hobbies .content .box{
+        width: 240px;
+        margin: 15px;
+    }
+    
+    .Hobbies .content .box .imgbox{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .Hobbies .content .box .imgbox img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .Hobbies .content .box .text{
+        text-align: center;
+        padding: 15px 0 5px;
+    }
+    
+    .Hobbies .content .box .text h3{
+        font-size: 2rem;
+        font-weight: 400;
+        color: #111;
+    }
+    
+    .Hobbies .content .box:hover{
+        transform:translate(1ch, 1mm);;
+    }
+    
+    .about{
+        padding-top: 90px;
+        margin-left: 70px;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: row;
+        border: none;
+        gap: 80px;
+      }
+      .imgbox{
+        width: 500px;
+      }
+      .titletext{
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        padding: 10px;
+      }
+
+      /* Carousel controls */
+.carousel-control-prev,
+.carousel-control-next{
+width: var(--carousel-control-width); /* Use the variable for width */
+opacity: var(--carousel-control-opacity); /* Set default opacity */
+transition: var(--carousel-control-transition); /* Use the transition variable */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover{
+opacity: var(--carousel-control-hover-opacity); /* Increase opacity on hover */
+}
+
+/* Carousel control icons */
+.carousel-control-prev-icon{
+background-image: var(--carousel-control-prev-icon-bg); /* Use SVG data URI */
+width: var(--carousel-control-icon-width); /* Set icon width */
+}
+
+.carousel-control-next-icon{
+background-image: var(--carousel-control-next-icon-bg); /* Use SVG data URI */
+width: var(--carousel-control-icon-width); /* Set icon width */
+}
+
+/* Carousel indicators */
+.carousel-indicators{
+bottom: 10px; /* Adjust position as needed */
+}
+
+.carousel-indicator{
+width: var(--carousel-indicator-width);
+height: var(--carousel-indicator-height);
+margin-left: var(--carousel-indicator-spacer); /* Adjust spacing */
+opacity: var(--carousel-indicator-opacity);
+background-color: #000; /* Fallback color if not using $white */
+transition: var(--carousel-indicator-transition);
+}
+
+.carousel-indicator.active{
+background-color: var(--carousel-indicator-active-bg); /* Use variable for active color */
+opacity: var(--carousel-indicator-active-opacity);
+}
+
+/* Carousel captions */
+.carousel-caption{
+width: var(--carousel-caption-width);
+color: var(--carousel-caption-color); /* Use variable for caption text color */
+padding-bottom: var(--carousel-caption-padding-y); /* Adjust padding */
+}
+
+/* Carousel slide transition (assuming this is placed after other carousel styles) */
+.carousel-item{
+transition: var(--carousel-transition); /* Use the transition variable */
+}
+
+.carousel-inner .titletext{
+text-align:center;
+font-size: 8rem;
+}
+
+.carousel-item img{
+max-width: 500px; /* Set a maximum width */
+max-height: 500px; /* Set a maximum height */
+margin-top: -20px;
+margin-left: 400px;
+}
+.carousel-item img{
+    max-width: 100%; /* Set a maximum width */
+    height: auto; /* Let the height adjust proportionally */
+    margin-top: -20px; /* Adjust as needed */
+}
+
+.MygGallery{
+display: flex;
+justify-content: center;
+align-items: center; /* Align items vertically center */
+flex-direction: column; /* Align items in a column */
+height: 100vh; /* Set the height of the container to full viewport height */
+}
+
+.gallery{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+
+.gallery img{
+width: 100%;
+height: 500px; /* Set a fixed height for all images */
+object-fit: cover; /* Maintain aspect ratio */
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(234, 232, 232, 0.1);
+}
+
+.contact{
+display: flex;
+justify-content: center; /* Horizontally center the content */
+align-items: center; /* Vertically center the content */
+margin-bottom: 10px;
+}
+
+.contact img{
+max-width: 300px; /* Set maximum width to ensure responsiveness */
+height: auto; /* Maintain aspect ratio */
+cursor: pointer;
+transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.contact img:hover{
+transform: scale(1.1); /* Scale up slightly on hover */
+}
+
+footer{
+background-color: rgb(200, 126, 200);  /* Light gray background */
+padding: 20px;  /* Add some padding for spacing */
+text-align: center;  /* Center the content horizontally */
+}
+
+footer h3{
+margin: 0; /* Remove default margin for better spacing */
+font-size: 2rem; /* Adjust font size as needed */
+}
+
+footer a{  /* Optional styles for links within the footer */
+color: #333;  /* Set link color */
+text-decoration: none;  /* Remove underline from links */
+}
+
+footer a:hover{  /* Optional styles for links on hover */
+color: #000;  /* Change link color on hover */
+}
