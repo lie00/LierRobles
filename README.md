@@ -1,5 +1,4 @@
 # LierRobles
-# Johnlieroy
 Contents:
 index.html: HTML file containing the structure and content of the website.
 style.css: CSS file for styling the website.
